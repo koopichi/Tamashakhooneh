@@ -1,5 +1,5 @@
 ```
-git clone https://github.com/koopichi/Tamashakhooneh.git && cd Tamashakhooneh
+git clone https://github.com/koopichi/TamashakhoonehBot.git && cd Tamashakhooneh
 ```
 
 ```
