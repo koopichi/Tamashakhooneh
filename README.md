@@ -1,14 +1,5 @@
 ```
-git clone https://github.com/koopichi/TamashakhoonehBot.git && cd TamashakhoonehBot
-```
-or
-
-```
 docker build -t tamashakhooneh https://github.com/koopichi/TamashakhoonehBot.git
-```
-
-```
-docker build -t tamashakhooneh .
 ```
 
 ```
@@ -25,7 +16,7 @@ docker run -d --name mongodb \
   mongo
 ```
 
-enter your .env
+enter your .env and add bot to channel
 
 ```
 docker run -d --restart unless-stopped --name tamasha \
