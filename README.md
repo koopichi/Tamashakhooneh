@@ -1,6 +1,11 @@
 ```
 git clone https://github.com/koopichi/TamashakhoonehBot.git && cd TamashakhoonehBot
 ```
+or
+
+```
+docker build -t tamashakhooneh https://github.com/koopichi/TamashakhoonehBot.git
+```
 
 ```
 docker build -t tamashakhooneh .
