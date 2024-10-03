@@ -3,7 +3,7 @@ git clone https://github.com/koopichi/Tamashakhooneh.git && cd Tamashakhooneh
 ```
 
 ```
-docker build -t Tamashakhooneh .
+docker build -t tamashakhooneh .
 ```
 
 ```
@@ -27,5 +27,5 @@ docker run -d --restart unless-stopped --name tamasha \
   --network my_network \
   -v /root/env/.env:/app/.env \
   -p 8080:8080 \
-  Tamashakhooneh
+  tamashakhooneh
 ```
